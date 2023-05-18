@@ -1,10 +1,9 @@
-import { useState } from "react";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <p>hi</p>
+      <h1 className="font-bold">Portfolio</h1>
     </>
   );
 }

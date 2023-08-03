@@ -1,0 +1,3 @@
+.welcome {
+    @apply flex justify-center items-center bg-transparent
+}

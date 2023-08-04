@@ -4,10 +4,10 @@
 
 @layer base {
     section {
-        @apply bg-background w-screen h-screen
+        @apply bg-background h-[1080px]
     }
 
     body {
-        @apply overflow-x-hidden selection:bg-primary selection:text-background
+        @apply selection:bg-primary selection:text-background
     }
 }

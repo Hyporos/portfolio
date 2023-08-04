@@ -6,7 +6,8 @@
     section {
         @apply bg-background w-screen h-screen
     }
+
     body {
-        @apply overflow-x-hidden
+        @apply overflow-x-hidden selection:bg-primary selection:text-background
     }
 }

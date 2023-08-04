@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 import Welcome from "./components/Welcome/Welcome";
 import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";

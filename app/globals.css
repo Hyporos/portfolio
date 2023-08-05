@@ -4,7 +4,7 @@
 
 @layer base {
     section {
-        @apply bg-background h-[1080px]
+        @apply bg-background h-screen flex justify-center items-center
     }
 
     body {

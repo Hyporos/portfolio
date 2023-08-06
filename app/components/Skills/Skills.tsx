@@ -1,10 +1,14 @@
-import "./Skills.css";
 import Image from "next/image";
+import './Skills.css'
 
 const Skills = () => {
   return (
-    <section>
-      <div className="flex tracking-wide flex-col space-y-4 bg-secondary/75 justify-center items-center rounded-3xl w-[900px] h-[400px]">
+    <section className="skills">
+      <div className="flex space-x-8 items-center">
+      <div className="border-primary/25 border-t w-[1000px]"></div>
+      <h1 className="text-primary text-4xl uppercase font-light tracking-wider">Skills</h1>
+      </div>
+      <div className="flex tracking-wider flex-col space-y-4 justify-center items-center rounded-3xl w-[900px] h-[400px]">
         <div>
           <h2 className="text-text text-center text-xl font-light">
             Front-End

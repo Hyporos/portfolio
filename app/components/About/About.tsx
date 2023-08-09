@@ -20,7 +20,7 @@ const About = () => {
             others. When I&apos;m not occupied with coding, you can find me
             hiking, rock climbing, or studying a new language.
           </p>
-          <div className="border-accent/25 border-t w-[636px] my-5"></div>
+          <div className="border-accent/25 border-t w-[636px] my-6"></div>
           <div className="flex justify-between px-12">
             <p className="w-1/3 text-left text-accent uppercase font-light tracking-wide">
               Front-End
@@ -32,7 +32,7 @@ const About = () => {
               Other
             </p>
           </div>
-          <div className="flex justify-start space-x-4 my-5">
+          <div className="flex justify-start space-x-4 mt-6">
             <Image
               src="/badges/HTML5.webp"
               alt="HTML5"

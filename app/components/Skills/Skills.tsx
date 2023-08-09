@@ -1,16 +1,17 @@
 import Image from "next/image";
-import './Skills.css'
+import "./Skills.css";
 
 const Skills = () => {
   return (
     <section className="skills">
-      <div className="flex space-x-8 items-center">
-      <div className="border-primary/25 border-t w-[1000px]"></div>
-      <h1 className="text-primary text-4xl uppercase font-light tracking-wider">Skills</h1>
-      </div>
-      <div className="flex tracking-wider flex-col space-y-4 justify-center items-center rounded-3xl w-[900px] h-[400px]">
-        <div>
-          <h2 className="text-text text-center text-xl font-light">
+        <div className="flex space-x-8 items-center">
+          <div className="border-primary/25 border-t w-[900px]"></div>
+          <h1 className="text-primary text-4xl uppercase font-light tracking-wider">
+            Skills
+          </h1>
+        </div>
+        <div className="space-y-6 tracking-wider mt-32 mb-24">
+          <h2 className="text-primary text-center text-xl uppercase">
             Front-End
           </h2>
           <div className="flex space-x-8">
@@ -65,8 +66,8 @@ const Skills = () => {
             ></Image>
           </div>
         </div>
-        <div>
-          <h2 className="text-text text-center text-xl font-light">Back-End</h2>
+        <div className="space-y-6 tracking-wider mb-24">
+          <h2 className="text-primary text-center text-xl uppercase">Back-End</h2>
           <div className="flex space-x-8">
             <Image
               src="/badges/C++.webp"
@@ -75,14 +76,14 @@ const Skills = () => {
               width={75}
               height={75}
             ></Image>
-                        <Image
+            <Image
               src="/badges/SQL.webp"
               alt="SQL"
               draggable="false"
               width={75}
               height={75}
             ></Image>
-                                    <Image
+            <Image
               src="/badges/Express.webp"
               alt="Express.js"
               draggable="false"
@@ -91,8 +92,8 @@ const Skills = () => {
             ></Image>
           </div>
         </div>
-        <div>
-          <h2 className="text-text text-center text-xl font-light">Other</h2>
+        <div className="space-y-6 tracking-wider mb-32">
+          <h2 className="text-primary text-center text-xl uppercase">Other</h2>
           <div className="flex space-x-8">
             <Image
               src="/badges/NodeJS.webp"
@@ -116,7 +117,7 @@ const Skills = () => {
               height={75}
             ></Image>
             <Image
-              src="/badges/Figma.webp"
+              src="/badges/Git.webp"
               alt="Figma"
               draggable="false"
               width={75}
@@ -124,7 +125,6 @@ const Skills = () => {
             ></Image>
           </div>
         </div>
-      </div>
     </section>
   );
 };

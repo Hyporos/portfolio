@@ -10,7 +10,7 @@ const Projects = () => {
           PROJECTS
         </h1>
       </div>
-      <div className="my-32">
+      <div className="my-36">
         <div>
           <h2 className="text-text text-center text-xl font-light">Wiremap</h2>
           <Image

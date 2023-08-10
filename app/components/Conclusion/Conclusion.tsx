@@ -10,12 +10,11 @@ const Conclusion = () => {
         </h1>
         <div className="border-primary/25 border-t w-[750px]"></div>
       </div>
-      <div className="my-32">
+      <div className="my-36 flex flex-col items-center space-y-16">
         <h2 className="text-text text-center text-xl font-light">
-          I&apos;m currently open to any new opportunities for
-          development-related work. <br></br> Whether you have an inquiry or just want to
-          to say hello, I&apos;ll get back to you as soon as possible!
+            Would you like to work with me? I&apos;d love to hear about it!
         </h2>
+        <button className="text-text text-center text-xl uppercase border-2 border-primary rounded-xl w-[180px] h-[55px]">Mail me</button>
       </div>
     </section>
   );

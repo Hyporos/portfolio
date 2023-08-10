@@ -57,7 +57,7 @@ const About = () => {
               </span>
             </div>
           </div>
-          <div className="flex justify-start space-x-3.5 mt-6">
+          <div className="flex justify-around space-x-3.5 mt-6">
             <Image
               src="/badges/HTML5.webp"
               className="opacity-50 hover:opacity-100 transition-all"

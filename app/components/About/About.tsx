@@ -118,7 +118,7 @@ const About = () => {
         </div>
         <Image
           src="/portraits.webp"
-          className="rounded-2xl"
+          className="rounded-2xl border-accent/10 border-2"
           alt="Portrait"
           draggable="false"
           width={300}

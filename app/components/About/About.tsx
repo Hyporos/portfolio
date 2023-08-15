@@ -2,6 +2,8 @@
 import { useState } from "react";
 import Image from "next/image";
 import "./About.css";
+import { BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoTypescript, BiLogoReact, BiLogoTailwindCss} from 'react-icons/bi'
+import { TbBrandNextjs } from 'react-icons/tb'
 
 const About = () => {
   const [skills, setSkills] = useState(1);
@@ -28,7 +30,7 @@ const About = () => {
           <div className="flex px-12 uppercase tracking-wide">
             <div className="w-1/3 text-left">
               <span
-                className={`transition-all cursor-pointer text-accent hover:font-semibold ${
+                className={`transition-all cursor-pointer text-accent hover:font-semibold duration-300 ${
                   skills === 1 ? "font-semibold" : "font-light"
                 }`}
                 onClick={() => setSkills(1)}
@@ -38,7 +40,7 @@ const About = () => {
             </div>
             <div className="w-1/3 text-center">
               <span
-                className={`transition-all cursor-pointer text-accent hover:font-semibold ${
+                className={`transition-all cursor-pointer text-accent hover:font-semibold duration-300 ${
                   skills === 2 ? "font-semibold" : "font-light"
                 }`}
                 onClick={() => setSkills(2)}
@@ -48,7 +50,7 @@ const About = () => {
             </div>
             <div className="w-1/3 text-right">
               <span
-                className={`transition-all cursor-pointer text-accent hover:font-semibold ${
+                className={`transition-all cursor-pointer text-accent hover:font-semibold duration-300 ${
                   skills === 3 ? "font-semibold" : "font-light"
                 }`}
                 onClick={() => setSkills(3)}
@@ -58,62 +60,13 @@ const About = () => {
             </div>
           </div>
           <div className="flex justify-around space-x-3.5 mt-6">
-            <Image
-              src="/badges/HTML5.webp"
-              className="opacity-50 hover:opacity-100 transition-all"
-              alt="HTML5"
-              draggable="false"
-              width={35}
-              height={35}
-            ></Image>
-            <Image
-              src="/badges/CSS3.webp"
-              className="opacity-50 hover:opacity-100 transition-all"
-              alt="CSS3"
-              draggable="false"
-              width={35}
-              height={35}
-            ></Image>
-            <Image
-              src="/badges/JS.webp"
-              className="opacity-50 hover:opacity-100 transition-all"
-              alt="JS"
-              draggable="false"
-              width={35}
-              height={35}
-            ></Image>
-            <Image
-              src="/badges/TS.webp"
-              className="opacity-50 hover:opacity-100 transition-all"
-              alt="TS"
-              draggable="false"
-              width={35}
-              height={35}
-            ></Image>
-            <Image
-              src="/badges/React.webp"
-              className="opacity-50 hover:opacity-100 transition-all"
-              alt="React"
-              draggable="false"
-              width={35}
-              height={35}
-            ></Image>
-            <Image
-              src="/badges/NextJS.webp"
-              className="opacity-50 hover:opacity-100 transition-all"
-              alt="NextJS"
-              draggable="false"
-              width={35}
-              height={35}
-            ></Image>
-            <Image
-              src="/badges/Tailwind.webp"
-              className="opacity-50 hover:opacity-100 transition-all"
-              alt="Tailwind"
-              draggable="false"
-              width={35}
-              height={35}
-            ></Image>
+              <BiLogoHtml5 size={40} className="fill-primary hover:fill-accent opacity-50 hover:opacity-100 transition-all duration-300"/>
+              <BiLogoCss3 size={40} className="fill-primary hover:fill-accent opacity-50 hover:opacity-100 transition-all duration-300"/>
+              <BiLogoJavascript size={40} className="fill-primary hover:fill-accent opacity-50 hover:opacity-100 transition-all duration-300"/>
+              <BiLogoTypescript size={40} className="fill-primary hover:fill-accent opacity-50 hover:opacity-100 transition-all duration-300"/>
+              <BiLogoReact size={40} className="fill-primary hover:fill-accent opacity-50 hover:opacity-100 transition-all duration-300"/>
+              <TbBrandNextjs size={40} className="stroke-primary hover:stroke-accent opacity-50 hover:opacity-100 transition-all duration-300"/>
+              <BiLogoTailwindCss size={40} className="fill-primary hover:fill-accent opacity-50 hover:opacity-100 transition-all duration-300"/>
           </div>
         </div>
         <Image

@@ -1,6 +1,7 @@
 import { LuExternalLink } from "react-icons/lu";
 import Image from "next/image";
 import "./Projects.css";
+import { BiLogoGithub } from "react-icons/bi";
 
 const Projects = () => {
   return (
@@ -12,7 +13,7 @@ const Projects = () => {
         </h1>
       </div>
       <div className="flex space-x-12 mt-36 mb-20 items-center">
-        <div className="w-[500px] h-[350px] bg-primary/5 flex flex-col p-8 justify-between rounded-lg">
+        <div className="w-[500px] h-[350px] bg-primary/5 flex flex-col p-8 justify-between rounded-lg shadow-card shadow-black/0 transition-all hover:shadow-black/30 duration-300">
           <div className="flex justify-between items-center">
             <h2 className="text-primary text-2xl uppercase tracking-wider hover:text-accent transition-all duration-300">
               <a href="https://maplesymbols.com/" target="_blank">
@@ -20,17 +21,19 @@ const Projects = () => {
               </a>
             </h2>
             <div className="flex space-x-8">
-              <Image
-                src="/badges/GitHub.webp"
-                alt="GitHub"
-                draggable="false"
-                width={27}
-                height={27}
-              ></Image>
               <a href="https://maplesymbols.com/" target="_blank">
                 <LuExternalLink
                   size={27}
-                  className="stroke-[#bb86ff] hover:stroke-[#d586ff] transition-all duration-300"
+                  className="stroke-[#bb86ff] hover:stroke-[#d586ff] transition-all duration-300 opacity-50 hover:opacity-100"
+                />
+              </a>
+              <a
+                href="https://github.com/Hyporos/maple-symbols"
+                target="_blank"
+              >
+                <BiLogoGithub
+                  size={30}
+                  className="fill-primary hover:fill-accent transition-all duration-300 opacity-50 hover:opacity-100"
                 />
               </a>
             </div>
@@ -78,44 +81,47 @@ const Projects = () => {
         </div>
         <div className="bg-primary/10 w-[350px] h-[350px] flex items-center justify-center rounded-lg">
           <div className="w-[330px] h-[330px] opacity-80 hover:w-[340px] hover:h-[340px] hover:opacity-100 transition-all duration-300 cursor-pointer">
-            <Image
-              src="/projects/maplesymbols.webp"
-              className="rounded-lg"
-              alt="Maple Symbols"
-              draggable="false"
-              width={350}
-              height={350}
-            ></Image>
+            <a href="https://maplesymbols.com/" target="_blank">
+              <Image
+                src="/projects/maplesymbols.webp"
+                className="rounded-lg"
+                alt="Maple Symbols"
+                draggable="false"
+                width={350}
+                height={350}
+              ></Image>
+            </a>
           </div>
         </div>
       </div>
       <div className="flex space-x-12 mb-36 items-center">
         <div className="bg-primary/10 w-[350px] h-[350px] flex items-center justify-center rounded-lg">
           <div className="w-[330px] h-[330px] opacity-80 hover:w-[340px] hover:h-[340px] hover:opacity-100 transition-all duration-300 cursor-pointer">
-            <Image
-              src="/projects/wiremap.webp"
-              className="rounded-lg"
-              alt="Wiremap"
-              draggable="false"
-              width={350}
-              height={350}
-            />
+            <a href="https://wirem.app/" target="_blank">
+              <Image
+                src="/projects/wiremap.webp"
+                className="rounded-lg"
+                alt="Wiremap"
+                draggable="false"
+                width={350}
+                height={350}
+              />
+            </a>
           </div>
         </div>
-        <div className="w-[500px] h-[350px] bg-primary/5 flex flex-col p-8 justify-between rounded-lg">
+        <div className="w-[500px] h-[350px] bg-primary/5 flex flex-col p-8 justify-between rounded-lg shadow-card shadow-black/0 transition-all hover:shadow-black/30 duration-300">
           <div className="flex justify-between items-center">
             <div className="flex space-x-8">
-              <Image
-                src="/badges/github.svg"
-                alt="GitHub"
-                draggable="false"
-                width={27}
-                height={27}
-              />
               <a href="https://wirem.app/" target="_blank">
                 <LuExternalLink
                   size={27}
-                  className="stroke-[#bb86ff] hover:stroke-[#d586ff] transition-all duration-300 cursor-pointer"
+                  className="stroke-[#bb86ff] hover:stroke-[#d586ff] transition-all duration-300 opacity-50 hover:opacity-100"
+                />
+              </a>
+              <a href="https://github.com/wiremapp/app" target="_blank">
+                <BiLogoGithub
+                  size={30}
+                  className="fill-primary hover:fill-accent transition-all duration-300 opacity-50 hover:opacity-100"
                 />
               </a>
             </div>

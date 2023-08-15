@@ -15,6 +15,9 @@ module.exports = {
         'accent': '#d586ff',
       }
     },
+    boxShadow: {
+      'card' : '0 0 30px 1px rgb(0 0 0 / 0.05);'
+    }
   },
   plugins: [],
 }

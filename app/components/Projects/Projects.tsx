@@ -12,7 +12,7 @@ const Projects = () => {
           PROJECTS
         </h1>
       </div>
-      <div className="flex space-x-12 mt-36 mb-20 items-center">
+      <div className="flex space-x-16 mt-36 mb-16 items-center">
         <div className="w-[500px] h-[350px] bg-primary/5 flex flex-col p-8 justify-between rounded-lg shadow-card shadow-black/0 transition-all hover:shadow-black/30 duration-300">
           <div className="flex justify-between items-center">
             <h2 className="text-primary text-2xl uppercase tracking-wider hover:text-accent transition-all duration-300">
@@ -80,7 +80,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="bg-primary/10 w-[350px] h-[350px] flex items-center justify-center rounded-lg">
-          <div className="w-[330px] h-[330px] opacity-80 hover:w-[340px] hover:h-[340px] hover:opacity-100 transition-all duration-300 cursor-pointer">
+          <div className="w-[330px] h-[330px] opacity-75 hover:w-[340px] hover:h-[340px] hover:opacity-100 transition-all duration-300 cursor-pointer">
             <a href="https://maplesymbols.com/" target="_blank">
               <Image
                 src="/projects/maplesymbols.webp"
@@ -94,9 +94,9 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div className="flex space-x-12 mb-36 items-center">
+      <div className="flex space-x-16 mb-36 items-center">
         <div className="bg-primary/10 w-[350px] h-[350px] flex items-center justify-center rounded-lg">
-          <div className="w-[330px] h-[330px] opacity-80 hover:w-[340px] hover:h-[340px] hover:opacity-100 transition-all duration-300 cursor-pointer">
+          <div className="w-[330px] h-[330px] opacity-75 hover:w-[340px] hover:h-[340px] hover:opacity-100 transition-all duration-300 cursor-pointer">
             <a href="https://wirem.app/" target="_blank">
               <Image
                 src="/projects/wiremap.webp"

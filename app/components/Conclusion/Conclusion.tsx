@@ -14,7 +14,7 @@ const Conclusion = () => {
           <p className="text-6xl text-accent">Get In Touch</p>
           <p className="text-lg">
             I&apos;m open to any new opportunities, so I&apos;d be happy to get
-            back to you! <br></br>
+            back to you! <br></br>  
           </p>
         </div>
         <button className="text-text text-center font-semibold tracking-wide text-xl uppercase border-2 border-primary hover:bg-primary hover:text-background duration-700  transition-all rounded-lg w-[180px] h-[55px]">

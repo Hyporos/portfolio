@@ -35,7 +35,7 @@ const Footer = () => {
             />
           </a>
         </div>
-        <p className="text-text/30 text-center">&copy; 2023 Brian Maleki</p>
+        <p className="text-text/40 text-center">&copy; 2023 Brian Maleki</p>
       </div>
     </section>
   );

@@ -16,8 +16,9 @@ const Projects = () => {
         <div className="w-[500px] h-[350px] bg-primary/5 flex flex-col p-8 justify-between rounded-lg shadow-card shadow-black/0 transition-all hover:shadow-black/30 duration-300">
           <div className="flex justify-between items-center">
             <h2 className="text-primary text-2xl uppercase tracking-wider hover:text-accent transition-all duration-300">
-              <a href="https://maplesymbols.com/" target="_blank">
+              <a href="https://maplesymbols.com/" target="_blank" className="group">
                 Maple Symbols
+                <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-accent"></span>
               </a>
             </h2>
             <div className="flex space-x-8">
@@ -50,32 +51,36 @@ const Projects = () => {
           </div>
           <div className="flex space-x-8 text-sm text-text/70 font-light">
             <a
-              className="hover:text-white transition-all duration-300"
+              className="hover:text-white transition-all duration-300 group"
               href="https://react.dev/"
               target="_blank"
             >
               React
+              <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-text/70"></span>
             </a>
             <a
-              className="hover:text-white transition-all duration-300"
+              className="hover:text-white transition-all duration-300 group"
               href="https://www.typescriptlang.org/"
               target="_blank"
             >
               TypeScript
+              <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-text/70"></span>
             </a>
             <a
-              className="hover:text-white transition-all duration-300"
+              className="hover:text-white transition-all duration-300 group"
               href="https://tailwindcss.com/"
               target="_blank"
             >
               Tailwind
+              <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-text/70"></span>
             </a>
             <a
-              className="hover:text-white transition-all duration-300"
+              className="hover:text-white transition-all duration-300 group"
               href="https://firebase.google.com/"
               target="_blank"
             >
               Firebase
+              <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-text/70"></span>
             </a>
           </div>
         </div>
@@ -126,8 +131,9 @@ const Projects = () => {
               </a>
             </div>
             <h2 className="text-primary text-2xl uppercase tracking-wider hover:text-accent transition-all duration-300">
-              <a href="https://wirem.app/" target="_blank">
+              <a href="https://wirem.app/" target="_blank" className="group">
                 Wiremap
+                <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-accent"></span>
               </a>
             </h2>
           </div>
@@ -144,39 +150,44 @@ const Projects = () => {
           </div>
           <div className="flex space-x-8 text-sm text-text/70 text-center font-light justify-end">
             <a
-              className="hover:text-white transition-all duration-300"
+              className="hover:text-white transition-all duration-300 group"
               href="https://react.dev/"
               target="_blank"
             >
               React
+              <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-text/70"></span>
             </a>
             <a
-              className="hover:text-white transition-all duration-300"
+              className="hover:text-white transition-all duration-300 group"
               href="https://nextjs.org/"
               target="_blank"
             >
               NextJS
+              <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-text/70"></span>
             </a>
             <a
-              className="hover:text-white transition-all duration-300"
+              className="hover:text-white transition-all duration-300 group"
               href="https://www.typescriptlang.org/"
               target="_blank"
             >
               TypeScript
+              <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-text/70"></span>
             </a>
             <a
-              className="hover:text-white transition-all duration-300"
+              className="hover:text-white transition-all duration-300 group"
               href="https://tailwindcss.com/"
               target="_blank"
             >
               Tailwind
+              <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-text/70"></span>
             </a>
             <a
-              className="hover:text-white transition-all duration-300"
+              className="hover:text-white transition-all duration-300 group"
               href="https://www.netlify.com/"
               target="_blank"
             >
               Netlify
+              <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-text/70"></span>
             </a>
           </div>
         </div>

@@ -13,13 +13,14 @@ const Conclusion = () => {
         <div className="text-text text-center font-light space-y-6">
           <p className="text-6xl text-accent">Get In Touch</p>
           <p className="text-lg">
-            I&apos;m open to any new opportunities, so I&apos;d be happy to get
-            back to you! <br></br>  
+            Whether you have general inquiries or would like to work with me, I&apos;ll be happy to <br></br> get back to you as soon as possible! I&apos;m always looking for new opportunities.
           </p>
         </div>
-        <button className="text-text text-center font-semibold tracking-wide text-xl uppercase border-2 border-primary hover:bg-primary hover:text-background duration-700  transition-all rounded-lg w-[180px] h-[55px]">
-          Mail me
-        </button>
+        <a href="mailto:brian@maleki.dev">
+          <button className="allsides-4 text-text text-center font-semibold tracking-wide text-xl uppercase border-2 border-primary hover:bg-primary hover:text-background duration-700  transition-all rounded-lg w-[180px] h-[55px]">
+            Mail me
+          </button>
+        </a>
         <div className="flex space-x-8">
           <a href="https://github.com/Hyporos" target="_blank">
             <BiLogoGithub

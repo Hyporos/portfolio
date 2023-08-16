@@ -51,36 +51,32 @@ const Projects = () => {
           </div>
           <div className="flex space-x-8 text-sm text-text/70 font-light">
             <a
-              className="hover:text-white transition-all duration-300 group"
+              className="hover:text-white transition-all duration-300"
               href="https://react.dev/"
               target="_blank"
             >
               React
-              <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-text/70"></span>
             </a>
             <a
-              className="hover:text-white transition-all duration-300 group"
+              className="hover:text-white transition-all duration-300"
               href="https://www.typescriptlang.org/"
               target="_blank"
             >
               TypeScript
-              <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-text/70"></span>
             </a>
             <a
-              className="hover:text-white transition-all duration-300 group"
+              className="hover:text-white transition-all duration-300"
               href="https://tailwindcss.com/"
               target="_blank"
             >
               Tailwind
-              <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-text/70"></span>
             </a>
             <a
-              className="hover:text-white transition-all duration-300 group"
+              className="hover:text-white transition-all duration-300"
               href="https://firebase.google.com/"
               target="_blank"
             >
               Firebase
-              <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-text/70"></span>
             </a>
           </div>
         </div>
@@ -150,44 +146,39 @@ const Projects = () => {
           </div>
           <div className="flex space-x-8 text-sm text-text/70 text-center font-light justify-end">
             <a
-              className="hover:text-white transition-all duration-300 group"
+              className="hover:text-white transition-all duration-300"
               href="https://react.dev/"
               target="_blank"
             >
               React
-              <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-text/70"></span>
             </a>
             <a
-              className="hover:text-white transition-all duration-300 group"
+              className="hover:text-white transition-all duration-300"
               href="https://nextjs.org/"
               target="_blank"
             >
               NextJS
-              <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-text/70"></span>
             </a>
             <a
-              className="hover:text-white transition-all duration-300 group"
+              className="hover:text-white transition-all duration-300"
               href="https://www.typescriptlang.org/"
               target="_blank"
             >
               TypeScript
-              <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-text/70"></span>
             </a>
             <a
-              className="hover:text-white transition-all duration-300 group"
+              className="hover:text-white transition-all duration-300"
               href="https://tailwindcss.com/"
               target="_blank"
             >
               Tailwind
-              <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-text/70"></span>
             </a>
             <a
-              className="hover:text-white transition-all duration-300 group"
+              className="hover:text-white transition-all duration-300"
               href="https://www.netlify.com/"
               target="_blank"
             >
               Netlify
-              <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-text/70"></span>
             </a>
           </div>
         </div>

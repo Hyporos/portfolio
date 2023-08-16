@@ -1,3 +1,15 @@
 .about {
     @apply flex-col border-t-2 border-accent/50
 }
+
+.basic-3 {
+    background:
+        linear-gradient(currentColor 0 0) bottom /var(--d, 0) 1px no-repeat;
+    transition: 0.5s;
+}
+
+.basic-4 {
+    background:
+        linear-gradient(currentColor 0 0) bottom /var(--d, 100%) 1px no-repeat;
+    transition: 0.5s;
+}

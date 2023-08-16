@@ -43,8 +43,8 @@ const About = () => {
           <div className="flex px-12 uppercase tracking-wide">
             <div className="w-full text-left">
               <span
-                className={`group transition-all cursor-pointer hover:text-accent border-accent hover:font-semibold duration-300 ${
-                  skills === 1 ? "font-semibold text-accent" : "font-light text-primary"
+                className={`group transition-all cursor-pointer basic-3 hover:text-accent border-accent hover:font-semibold duration-300 ${
+                  skills === 1 ? "font-semibold text-accent basic-4" : "font-light text-primary"
                 }`}
                 onClick={() => setSkills(1)}
               >
@@ -54,7 +54,7 @@ const About = () => {
             <div className="w-full text-center">
               <span
                 className={`transition-all cursor-pointer hover:text-accent basic-3 border-accent hover:font-semibold duration-300 ${
-                  skills === 2 ? "font-semibold text-accent" : "font-light text-primary"
+                  skills === 2 ? "font-semibold text-accent basic-4" : "font-light text-primary"
                 }`}
                 onClick={() => setSkills(2)}
               >
@@ -63,8 +63,8 @@ const About = () => {
             </div>
             <div className="w-full text-right">
               <span
-                className={`transition-all cursor-pointer hover:text-accent border-accent hover:font-semibold duration-300 ${
-                  skills === 3 ? "font-semibold text-accent" : "font-light text-primary"
+                className={`transition-all cursor-pointer basic-3 hover:text-accent border-accent hover:font-semibold duration-300 ${
+                  skills === 3 ? "font-semibold text-accent basic-4" : "font-light text-primary"
                 }`}
                 onClick={() => setSkills(3)}
               >

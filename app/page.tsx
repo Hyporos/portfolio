@@ -8,9 +8,11 @@ export default function Page() {
   return (
     <main>
         <Welcome />
+        <div className="bg-gradient-to-tr from-background-g to-background">
         <About />
         <Projects />
         <Conclusion />
+        </div>
         <Footer />
     </main>
   );

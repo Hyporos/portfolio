@@ -1,4 +1,5 @@
 import ParticleBackground from "../ParticleBackground/ParticleBackground";
+import { AiOutlineArrowDown } from 'react-icons/ai';
 import "./Welcome.css";
 
 const Welcome = () => {
@@ -7,13 +8,15 @@ const Welcome = () => {
       <ParticleBackground />
       <div className="flex flex-col text-center space-y-6 text-text font-extralight tracking-wide select-none">
         <h1 className="text-7xl">
-          <span className="text-accent font-light">Hey</span>! I&apos;m Brian
-          Maleki.
+          Hey! I&apos;m <span className="text-accent font-light">Brian
+          Maleki</span>.
         </h1>
         <h2 className="text-6xl">
-          Welcome to my{" "}
-          <span className="text-accent font-light">portfolio</span>.
+          Welcome to my portfolio.
         </h2>
+      </div>
+      <div className="absolute align-bottom mt-[800px] animate-[bounce_2s_ease-in-out_infinite] opacity-90 cursor-pointer">
+      <AiOutlineArrowDown size={75} fill={"#d586ff"}/>
       </div>
     </section>
   );

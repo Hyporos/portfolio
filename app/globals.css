@@ -4,10 +4,10 @@
 
 @layer base {
     section {
-        @apply bg-background flex justify-center items-center
+        @apply flex justify-center items-center
     }
 
     body {
-        @apply selection:bg-primary selection:text-background
+        @apply selection:bg-primary/30 
     }
 }

@@ -47,11 +47,25 @@ const ParticleBackground = () => {
             limit: 0,
             value: 500,
           },
+          move: {
+            enable: true,
+            speed: 0.25,
+            direction: "none",
+            random: true,
+            straight: false,
+            out_mode: "out",
+            bounce: false,
+            attract: {
+              enable: false,
+              rotateX: 600,
+              rotateY: 600
+            }
+          },
           opacity: {
             animation: {
               enable: true,
               minimumValue: 0.5,
-              speed: 1,
+              speed: 1.5,
               sync: false,
             },
             random: {
@@ -66,9 +80,9 @@ const ParticleBackground = () => {
           size: {
             random: {
               enable: true,
-              minimumValue: 0.5,
+              minimumValue: 0.75,
             },
-            value: 1,
+            value: 1.5,
           },
         },
       }}

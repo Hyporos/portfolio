@@ -14,11 +14,15 @@ module.exports = {
         'primary': '#bb86ff',
         'secondary': '#262127',
         'accent': '#d586ff',
+      },
+      screens: {
+        'desktop': '1100px',
+        'laptop': '600px', 
       }
     },
     boxShadow: {
       'card' : '0 0 30px 1px rgb(0 0 0 / 0.05);'
-    }
+    },
   },
   plugins: [],
 }

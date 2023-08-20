@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import { useMediaQuery } from 'react-responsive'
 import Image from "next/image";
 import "./About.css";
 import {
@@ -21,7 +20,6 @@ import { SiExpress } from "react-icons/si"
 
 const About = () => {
   const [skills, setSkills] = useState(1);
-  const isMobile = useMediaQuery({ query: '(max-width: 599px)' })
   return (
     <section className="about">
       <div className="flex space-x-8 items-center mt-36">
@@ -41,7 +39,7 @@ const About = () => {
             hiking, rock climbing, or studying a new language.
           </p>
           <div className="border-primary/25 border-t w-[345px] desktop:w-[636px] my-12 desktop:my-6"></div>
-          <div className="flex space-x-10 desktop:px-12 uppercase tracking-wide items-center">
+          <div className="flex space-x-8 desktop:px-12 uppercase tracking-wide items-center">
             <div className="desktop:w-full text-center desktop:text-left">
               <span
                 className={`group transition-all cursor-pointer basic-3 hover:text-accent border-accent hover:font-semibold duration-300 ${
@@ -73,7 +71,7 @@ const About = () => {
               </span>
             </div>
           </div>
-          <div className={`flex justify-around space-x-2.5 desktop:space-x-0 mt-6 ${skills === 1 ? "flex" : "hidden"}`}>
+          <div className={`flex justify-around space-x-2 desktop:space-x-0 mt-6 ${skills === 1 ? "flex" : "hidden"}`}>
             <a href="https://html.spec.whatwg.org/" target="_blank">
               <BiLogoHtml5
                 size={40}
@@ -117,7 +115,7 @@ const About = () => {
               />
             </a>
           </div>
-          <div className={`flex justify-around space-x-3.5 mt-6 ${skills === 2 ? "flex" : "hidden"}`}>
+          <div className={`flex justify-around space-x-10 desktop:space-x-3.5 mt-6 ${skills === 2 ? "flex" : "hidden"}`}>
           <a href="https://cplusplus.com/" target="_blank">
               <BiLogoCPlusPlus
                 size={40}
@@ -137,7 +135,7 @@ const About = () => {
               />
             </a>
           </div>
-          <div className={`flex justify-around space-x-3.5 mt-6 ${skills === 3 ? "flex" : "hidden"}`}>
+          <div className={`flex justify-around space-x-10 desktop:space-x-3.5 mt-6 ${skills === 3 ? "flex" : "hidden"}`}>
           <a href="https://git-scm.com/" target="_blank">
               <BiLogoGit
                 size={40}

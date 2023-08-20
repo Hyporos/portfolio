@@ -13,7 +13,7 @@ const Projects = () => {
         </h1>
       </div>
       <div className="flex flex-col desktop:flex-row desktop:space-x-16 space-y-12 desktop:space-y-0 mt-16 desktop:mt-36 items-center">
-        <div className="w-[350px] h-[350px] desktop:w-[500px] desktop:h-[350px] bg-primary/5 flex flex-col px-8 py-12 desktop:px-8 desktop:py-8 justify-between rounded-lg shadow-card shadow-black/0 transition-all hover:shadow-black/30 duration-300">
+        <div className="w-[340px] h-[350px] desktop:w-[500px] desktop:h-[350px] bg-primary/5 flex flex-col px-8 py-12 desktop:px-8 desktop:py-8 justify-between rounded-lg shadow-card shadow-black/0 transition-all hover:shadow-black/30 duration-300">
           <div className="flex justify-between items-center">
             <h2 className="text-primary text-2xl uppercase tracking-wider hover:text-accent transition-all duration-300">
               <a href="https://maplesymbols.com/" target="_blank" className="group">
@@ -49,7 +49,7 @@ const Projects = () => {
               currently brings in about 7 unique visits a day.
             </p>
           </div>
-          <div className="flex space-x-4 desktop:space-x-8 text-sm text-text/70 font-light flex-wrap">
+          <div className="flex space-x-3.5 desktop:space-x-8 text-sm text-text/70 font-light flex-wrap">
             <a
               className="hover:text-white transition-all duration-300"
               href="https://react.dev/"
@@ -110,7 +110,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="w-[350px] h-[350px] desktop:w-[500px] desktop:h-[350px] bg-primary/5 flex flex-col px-8 py-12 desktop:px-8 desktop:py-8 justify-between rounded-lg shadow-card shadow-black/0 transition-all hover:shadow-black/30 duration-300">
+        <div className="w-[340px] h-[350px] desktop:w-[500px] desktop:h-[350px] bg-primary/5 flex flex-col px-8 py-12 desktop:px-8 desktop:py-8 justify-between rounded-lg shadow-card shadow-black/0 transition-all hover:shadow-black/30 duration-300">
           <div className="flex justify-between items-center flex-row-reverse desktop:flex-row">
             <div className="flex space-x-8">
               <a href="https://wirem.app/" target="_blank" className="hidden desktop:block">

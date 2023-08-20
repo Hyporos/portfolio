@@ -1,9 +1,12 @@
+"use client";
 import Image from "next/image";
 import "./Conclusion.css";
 import { BiLogoGithub } from "react-icons/bi";
 import { AiFillLinkedin } from "react-icons/ai";
+import { useMediaQuery } from 'react-responsive';
 
 const Conclusion = () => {
+  const isMobile = useMediaQuery({ query: '(max-width: 1099px)' })
   return (
     <section className="conclusion">
       <div className="flex space-x-8 items-center">
@@ -14,7 +17,7 @@ const Conclusion = () => {
           <p className="text-4xl desktop:text-6xl text-accent">Get In Touch</p>
           <p className="text-base desktop:text-lg w-[375px] p-6 desktop:p-0 desktop:w-full">
             Whether you have general inquiries or would like to work with me,
-            I&apos;ll be happy to get back to you as soon as possible!
+            {!isMobile && <br></br>} I&apos;ll be happy to get back to you as soon as possible!
             I&apos;m always looking for new opportunities.
           </p>
         </div>

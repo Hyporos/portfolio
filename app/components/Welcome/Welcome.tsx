@@ -1,12 +1,15 @@
+"use client";
+import { useMediaQuery } from "react-responsive";
 import ParticleBackground from "../ParticleBackground/ParticleBackground";
 import { AiOutlineArrowDown } from 'react-icons/ai';
 import "./Welcome.css";
 
 const Welcome = () => {
+  const isMobile = useMediaQuery({ query: "(max-width: 1099px)" });
   return (
     <section className="welcome">
       <ParticleBackground />
-      <div className="flex p-6 desktop:p-0 flex-col text-center space-y-6 text-text font-extralight tracking-wide select-none">
+      <div className="flex flex-col text-text font-extralight text-center tracking-wide select-none space-y-6 p-6 desktop:p-0">
         <h1 className="text-5xl desktop:text-7xl">
           Hey! I&apos;m <span className="text-accent font-light">Brian
           Maleki</span>.
@@ -15,9 +18,8 @@ const Welcome = () => {
           Welcome to my portfolio.
         </h2>
       </div>
-      <div className="absolute align-bottom mt-[500px] desktop:mt-[800px] animate-[bounce_2s_ease-in-out_infinite] opacity-90 cursor-pointer">
-      <AiOutlineArrowDown size={75} fill={"#d586ff"} className="hidden desktop:block"/>
-      <AiOutlineArrowDown size={60} fill={"#d586ff"} className="block desktop:hidden"/>
+      <div className="absolute opacity-90 cursor-pointer animate-[bounce_2s_ease-in-out_infinite] align-bottom mt-[500px] desktop:mt-[800px]">
+      <AiOutlineArrowDown size={!isMobile ? 75 : 60} fill={"#d586ff"}/>
       </div>
     </section>
   );

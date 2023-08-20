@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <section className="projects">
       <div className="flex space-x-8 items-center">
-        <div className="border-primary/25 border-t w-[145px] desktop:w-[750px]"></div>
+        <div className="border-primary/25 border-t w-[135px] desktop:w-[750px]"></div>
         <h1 className="text-primary text-3xl desktop:text-4xl uppercase font-light tracking-wider">
           PROJECTS
         </h1>

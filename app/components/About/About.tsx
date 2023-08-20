@@ -38,7 +38,7 @@ const About = () => {
             others. When I&apos;m not occupied with coding, you can find me
             hiking, rock climbing, or studying a new language.
           </p>
-          <div className="border-primary/25 border-t w-[345px] desktop:w-[636px] my-12 desktop:my-6"></div>
+          <div className="border-primary/25 border-t w-[335px] desktop:w-[636px] my-12 desktop:my-6"></div>
           <div className="flex space-x-8 desktop:px-12 uppercase tracking-wide items-center">
             <div className="desktop:w-full text-center desktop:text-left">
               <span

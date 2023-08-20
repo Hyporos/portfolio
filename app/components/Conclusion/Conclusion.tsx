@@ -7,14 +7,14 @@ const Conclusion = () => {
   return (
     <section className="conclusion">
       <div className="flex space-x-8 items-center">
-        <div className="border-primary/25 border-t w-[345px] desktop:w-[750px]"></div>
+        <div className="border-primary/25 border-t w-[335px] desktop:w-[750px]"></div>
       </div>
       <div className="my-16 desktop:my-28 flex flex-col items-center space-y-6 desktop:space-y-12">
         <div className="text-text text-center font-light space-y-6">
           <p className="text-4xl desktop:text-6xl text-accent">Get In Touch</p>
-          <p className="text-base desktop:text-lg w-[400px] p-6 desktop:p-0 desktop:w-full">
+          <p className="text-base desktop:text-lg w-[375px] p-6 desktop:p-0 desktop:w-full">
             Whether you have general inquiries or would like to work with me,
-            I&apos;ll be happy to <br></br> get back to you as soon as possible!
+            I&apos;ll be happy to get back to you as soon as possible!
             I&apos;m always looking for new opportunities.
           </p>
         </div>

@@ -1,3 +1,7 @@
 .footer {
-    @apply flex border-t-2 border-primary/50
+    @apply flex bg-background/50 border-t-2 border-primary/50 h-[170px] desktop:h-[200px]
+}
+
+.logo-icon {
+    @apply transition-all duration-300 opacity-80 hover:opacity-100
 }

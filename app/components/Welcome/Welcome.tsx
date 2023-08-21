@@ -5,7 +5,7 @@ import { AiOutlineArrowDown } from 'react-icons/ai';
 import "./Welcome.css";
 
 const Welcome = () => {
-  const isMobile = useMediaQuery({ query: "(max-width: 1099px)" });
+  const isMobile = useMediaQuery({ query: "(max-width: 749px)" });
   return (
     <section className="welcome">
       <ParticleBackground />

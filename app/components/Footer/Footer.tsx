@@ -5,7 +5,7 @@ import { TbBrandNextjs, TbBrandVercel } from "react-icons/tb";
 import "./Footer.css";
 
 const Footer = () => {
-  const isMobile = useMediaQuery({ query: "(max-width: 1099px)" });
+  const isMobile = useMediaQuery({ query: "(max-width: 749px)" });
   return (
     <section className="footer">
       <div className="flex flex-col items-center space-y-4 desktop:space-y-6">

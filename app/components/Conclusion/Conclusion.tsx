@@ -6,7 +6,7 @@ import { AiFillLinkedin } from "react-icons/ai";
 import { useMediaQuery } from 'react-responsive';
 
 const Conclusion = () => {
-  const isMobile = useMediaQuery({ query: '(max-width: 1099px)' })
+  const isMobile = useMediaQuery({ query: '(max-width: 749px)' })
   return (
     <section className="conclusion">
       <div className="flex space-x-8 items-center">

@@ -7,12 +7,13 @@ const Projects = () => {
   return (
     <section className="projects">
       <div className="flex space-x-8 items-center">
-        <div className="border-primary/25 border-t w-[130px] desktop:w-[835px]"></div>
+        <div className="border-primary/25 border-t w-[130px] tablet:w-[490px] desktop:w-[835px]"></div>
         <h1 className="text-primary text-3xl desktop:text-4xl uppercase font-light tracking-wider">
           PROJECTS
         </h1>
       </div>
-      <div className="flex flex-col desktop:flex-row desktop:space-x-16 space-y-12 desktop:space-y-0 mt-16 desktop:mt-36 items-center">
+      <div className="flex flex-col tablet:flex-row desktop:flex-col space-x-0 tablet:space-x-8 desktop:space-x-0 tablet:mt-6 mt-0 desktop:mt-0">
+      <div className="flex flex-col desktop:flex-row desktop:space-x-16 space-y-12 desktop:space-y-0 mt-16 tablet:mt-6 desktop:mt-36 items-center">
         <div className="w-[330px] h-[350px] desktop:w-[500px] desktop:h-[350px] bg-primary/5 flex flex-col px-8 py-12 desktop:px-8 desktop:py-8 justify-between rounded-lg shadow-card shadow-black/0 transition-all hover:shadow-black/30 duration-300">
           <div className="flex justify-between items-center">
             <h2 className="text-primary text-2xl uppercase tracking-wider hover:text-accent transition-all duration-300">
@@ -181,6 +182,7 @@ const Projects = () => {
               Netlify
             </a>
           </div>
+        </div>
         </div>
       </div>
     </section>

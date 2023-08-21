@@ -17,7 +17,7 @@ module.exports = {
       },
       screens: {
         'desktop': '1100px',
-        'laptop': '600px', 
+        'tablet': '750px', 
       }
     },
     boxShadow: {

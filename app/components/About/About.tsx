@@ -23,10 +23,10 @@ const About = () => {
   return (
     <section className="about">
       <div className="flex space-x-8 items-center mt-36">
-        <h1 className="text-primary text-3xl desktop:text-4xl uppercase font-light tracking-wider">
+        <h1 className="text-accent text-3xl desktop:text-4xl uppercase font-light tracking-wider">
           ABOUT
         </h1>
-        <div className="border-primary/25 border-t w-[170px] desktop:w-[900px]"></div>
+        <div className="border-primary/25 border-t w-[170px] tablet:w-[540px] desktop:w-[900px]"></div>
       </div>
       <div className="flex flex-col-reverse desktop:flex-row justify-center items-center desktop:space-x-16 my-16 desktop:my-36 desktop:max-h-[300px] w-[350px] desktop:max-w-[1000px]">
         <div className="flex flex-col justify-between items-center desktop:items-stretch">

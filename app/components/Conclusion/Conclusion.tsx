@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import "./Conclusion.css";
 import { BiLogoGithub } from "react-icons/bi";
 import { AiFillLinkedin } from "react-icons/ai";
@@ -10,12 +9,12 @@ const Conclusion = () => {
   return (
     <section className="conclusion">
       <div className="flex space-x-8 items-center">
-        <div className="border-primary/25 border-t w-[335px] desktop:w-[750px]"></div>
+        <div className="border-primary/25 border-t w-[335px] tablet:w-[690px] desktop:w-[1060px]"></div>
       </div>
       <div className="my-16 desktop:my-28 flex flex-col items-center space-y-6 desktop:space-y-12">
         <div className="text-text text-center font-light space-y-6">
           <p className="text-4xl desktop:text-6xl text-accent">Get In Touch</p>
-          <p className="text-base desktop:text-lg w-[375px] p-6 desktop:p-0 desktop:w-full">
+          <p className="text-base tablet:text-lg desktop:text-lg w-[375px] p-6 desktop:p-0 tablet:w-[650px] desktop:w-full">
             Whether you have general inquiries or would like to work with me,
             {!isMobile && <br></br>} I&apos;ll be happy to get back to you as soon as possible!
             I&apos;m always looking for new opportunities.
@@ -33,7 +32,7 @@ const Conclusion = () => {
             />
           </a>
           <a href="mailto:brian@maleki.dev">
-            <button className="allsides-4 text-text text-center font-semibold tracking-wide text-base desktop:text-xl uppercase border-2 border-primary hover:bg-primary hover:text-background duration-700  transition-all rounded-lg w-[125px] h-[45px] desktop:w-[180px] desktop:h-[55px]">
+            <button className="allsides-4 text-text text-center font-semibold tracking-wide text-base desktop:text-xl uppercase border-2 border-primary hover:bg-primary hover:text-background duration-700  transition-all rounded-lg w-[125px] h-[45px] tablet:w-[140px] desktop:w-[180px] tablet:h-[50px] desktop:h-[55px]">
               Mail me
             </button>
           </a>

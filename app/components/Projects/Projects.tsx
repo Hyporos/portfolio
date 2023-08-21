@@ -8,7 +8,7 @@ const Projects = () => {
     <section className="projects">
       <div className="flex space-x-8 items-center">
         <div className="border-primary/25 border-t w-[130px] tablet:w-[490px] desktop:w-[835px]"></div>
-        <h1 className="text-primary text-3xl desktop:text-4xl uppercase font-light tracking-wider">
+        <h1 className="text-accent text-3xl desktop:text-4xl uppercase font-light tracking-wider">
           PROJECTS
         </h1>
       </div>

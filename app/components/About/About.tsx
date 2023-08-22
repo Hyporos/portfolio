@@ -28,7 +28,7 @@ const About = () => {
         </h1>
         <div className="border-primary/25 border-t w-[170px] tablet:w-[540px] desktop:w-[900px]"></div>
       </div>
-      <div className="flex flex-col-reverse desktop:flex-row justify-center items-center desktop:space-x-16 my-16 desktop:my-36 desktop:max-h-[300px] w-[350px] tablet:w-[600px] desktop:max-w-[1000px]">
+      <div className="flex flex-col-reverse desktop:flex-row justify-center items-center desktop:space-x-16 mt-16 mb-12 desktop:my-36 desktop:max-h-[300px] w-[350px] tablet:w-[600px] desktop:max-w-[1000px]">
         <div className="flex flex-col justify-between items-center desktop:items-stretch">
           <p className="text-text text-center tablet:text-justify desktop:[text-align-last:justify] tablet:[text-align-last:center] text-lg desktop:text-xl font-light px-6 w-[350px] tablet:w-[600px] desktop:w-full desktop:px-0">
             I&apos;m a web developer with a passion for design based in Toronto,
@@ -39,7 +39,7 @@ const About = () => {
             hiking, rock climbing, or studying a new language.
           </p>
           <div className="border-primary/25 border-t w-[325px] tablet:w-[690px] desktop:w-[636px] my-12 desktop:my-6"></div>
-          <div className="flex tablet:w-[500px] desktop:w-full justify-between space-x-8 desktop:px-12 uppercase tracking-wide items-center">
+          <div className="flex tablet:w-[500px] desktop:w-full justify-between space-x-8 desktop:px-12 uppercase tracking-wide items-center mb-2 tablet:mb-0">
             <div className="tablet:w-full text-center tablet:text-left">
               <span
                 className={`group transition-all cursor-pointer basic-3 hover:text-accent border-accent hover:font-semibold duration-300 ${

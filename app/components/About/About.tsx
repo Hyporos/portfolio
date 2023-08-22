@@ -28,9 +28,9 @@ const About = () => {
         </h1>
         <div className="border-primary/25 border-t w-[170px] tablet:w-[540px] desktop:w-[900px]"></div>
       </div>
-      <div className="flex flex-col-reverse desktop:flex-row justify-center items-center desktop:space-x-16 my-16 desktop:my-36 desktop:max-h-[300px] w-[350px] desktop:max-w-[1000px]">
+      <div className="flex flex-col-reverse desktop:flex-row justify-center items-center desktop:space-x-16 my-16 desktop:my-36 desktop:max-h-[300px] w-[350px] tablet:w-[600px] desktop:max-w-[1000px]">
         <div className="flex flex-col justify-between items-center desktop:items-stretch">
-          <p className="text-text text-center desktop:text-justify desktop:[text-align-last:justify] text-lg desktop:text-xl font-light px-6 w-[350px] desktop:w-full desktop:px-0">
+          <p className="text-text text-center tablet:text-justify desktop:[text-align-last:justify] tablet:[text-align-last:center] text-lg desktop:text-xl font-light px-6 w-[350px] tablet:w-[600px] desktop:w-full desktop:px-0">
             I&apos;m a web developer with a passion for design based in Toronto,
             Canada. Growing up, I was always around technology. As a result, I
             had been fascinated by the idea of creating new things. Fast forward
@@ -38,9 +38,9 @@ const About = () => {
             others. When I&apos;m not occupied with coding, you can find me
             hiking, rock climbing, or studying a new language.
           </p>
-          <div className="border-primary/25 border-t w-[325px] desktop:w-[636px] my-12 desktop:my-6"></div>
-          <div className="flex space-x-8 desktop:px-12 uppercase tracking-wide items-center">
-            <div className="desktop:w-full text-center desktop:text-left">
+          <div className="border-primary/25 border-t w-[325px] tablet:w-[690px] desktop:w-[636px] my-12 desktop:my-6"></div>
+          <div className="flex tablet:w-[500px] desktop:w-full justify-between space-x-8 desktop:px-12 uppercase tracking-wide items-center">
+            <div className="tablet:w-full text-center tablet:text-left">
               <span
                 className={`group transition-all cursor-pointer basic-3 hover:text-accent border-accent hover:font-semibold duration-300 ${
                   skills === 1 ? "font-semibold text-accent basic-4" : "font-light text-primary"
@@ -50,7 +50,7 @@ const About = () => {
                 Front-end
               </span>
             </div>
-            <div className="desktop:w-full text-center">
+            <div className=" tablet:w-full text-center">
               <span
                 className={`transition-all cursor-pointer hover:text-accent basic-3 border-accent hover:font-semibold duration-300 ${
                   skills === 2 ? "font-semibold text-accent basic-4" : "font-light text-primary"
@@ -60,7 +60,7 @@ const About = () => {
                  Back-end
               </span>
             </div>
-            <div className="desktop:w-full text-right">
+            <div className="tablet:w-full text-right">
               <span
                 className={`transition-all cursor-pointer basic-3 hover:text-accent border-accent hover:font-semibold duration-300 ${
                   skills === 3 ? "font-semibold text-accent basic-4" : "font-light text-primary"
@@ -71,7 +71,7 @@ const About = () => {
               </span>
             </div>
           </div>
-          <div className={`flex justify-around space-x-2 desktop:space-x-0 mt-6 ${skills === 1 ? "flex" : "hidden"}`}>
+          <div className={`flex justify-around tablet:w-[600px] desktop:w-full space-x-2 desktop:space-x-0 mt-6 ${skills === 1 ? "flex" : "hidden"}`}>
             <a href="https://html.spec.whatwg.org/" target="_blank">
               <BiLogoHtml5
                 size={40}
@@ -115,7 +115,7 @@ const About = () => {
               />
             </a>
           </div>
-          <div className={`flex justify-around space-x-10 desktop:space-x-3.5 mt-6 ${skills === 2 ? "flex" : "hidden"}`}>
+          <div className={`flex justify-around tablet:w-[600px] desktop:w-full space-x-10 desktop:space-x-3.5 mt-6 ${skills === 2 ? "flex" : "hidden"}`}>
           <a href="https://cplusplus.com/" target="_blank">
               <BiLogoCPlusPlus
                 size={40}
@@ -135,7 +135,7 @@ const About = () => {
               />
             </a>
           </div>
-          <div className={`flex justify-around space-x-10 desktop:space-x-3.5 mt-6 ${skills === 3 ? "flex" : "hidden"}`}>
+          <div className={`flex justify-around tablet:w-[600px] desktop:w-full space-x-10 desktop:space-x-3.5 mt-6 ${skills === 3 ? "flex" : "hidden"}`}>
           <a href="https://git-scm.com/" target="_blank">
               <BiLogoGit
                 size={40}

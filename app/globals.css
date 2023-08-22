@@ -35,6 +35,6 @@
     }
 
     body {
-        @apply selection:bg-primary/30 
+        @apply selection:bg-primary/30
     }
 }

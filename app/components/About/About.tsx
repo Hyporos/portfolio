@@ -42,10 +42,14 @@ const About = () => {
         ></div>
       </div>
       <div className="flex flex-col-reverse desktop:flex-row justify-center items-center desktop:space-x-16 mt-16 mb-12 desktop:my-36 desktop:max-h-[300px] w-[350px] tablet:w-[600px] desktop:max-w-[1000px]">
-        <div
-          className="flex flex-col justify-between items-center desktop:items-stretch"
-        >
-          <div className={`text-text text-justify tablet:text-justify desktop:[text-align-last:justify] [text-align-last:center] text-lg desktop:text-xl font-light px-6 w-[350px] tablet:w-[600px] transition-all duration-[2500ms] desktop:w-full desktop:px-0 ${isOnScreen ? "translate-y-[0px] opacity-100" : "translate-y-[-100px] opacity-0"}`}>
+        <div className="flex flex-col justify-between items-center desktop:items-stretch">
+          <div
+            className={`text-text text-justify tablet:text-justify desktop:[text-align-last:justify] [text-align-last:center] text-lg desktop:text-xl font-light px-6 w-[350px] tablet:w-[600px] transition-all duration-[2500ms] desktop:w-full desktop:px-0 ${
+              isOnScreen
+                ? "translate-y-[0px] opacity-100"
+                : "translate-y-[-100px] opacity-0"
+            }`}
+          >
             I&apos;m a web developer with a passion for design based in Toronto,
             Canada. Growing up, I was always around technology. As a result, I
             had been fascinated by the idea of creating new things. Fast forward
@@ -54,49 +58,55 @@ const About = () => {
             hiking, rock climbing, or studying a new language.
           </div>
           <div
-            className={`border-primary/25 border-t w-[325px] tablet:w-[690px] desktop:w-[636px] my-12 desktop:my-6 transition-all duration-[2500ms] ${isOnScreen ? "opacity-100" : "opacity-0"}`}
+            className={`border-primary/25 border-t w-[325px] tablet:w-[690px] desktop:w-[636px] my-12 desktop:my-6 transition-all duration-[2500ms] ${
+              isOnScreen ? "opacity-100" : "opacity-0"
+            }`}
           ></div>
-          <div className={`transition-all duration-[2500ms] ${isOnScreen? "translate-y-[0px] opacity-100" : "translate-y-[100px] opacity-0"}`}>
           <div
-            className="flex desktop:w-full justify-between space-x-8 desktop:px-12 uppercase tracking-wide items-center mb-2 tablet:mb-0 transition-all duration-[2500ms]"
+            className={`transition-all duration-[2500ms] ${
+              isOnScreen
+                ? "translate-y-[0px] opacity-100"
+                : "translate-y-[100px] opacity-0"
+            }`}
           >
-            <div className="tablet:w-full text-center tablet:text-left">
-              <span
-                className={`group transition-all cursor-pointer basic-3 hover:text-accent border-accent hover:font-semibold duration-300 ${
-                  skills === 1
-                    ? "font-semibold text-accent basic-4"
-                    : "font-light text-primary"
-                }`}
-                onClick={() => setSkills(1)}
-              >
-                Front-end
-              </span>
+            <div className="flex desktop:w-full justify-between space-x-8 desktop:px-12 uppercase tracking-wide items-center mb-2 tablet:mb-0 transition-all duration-[2500ms]">
+              <div className="tablet:w-full text-center tablet:text-left">
+                <span
+                  className={`group transition-all cursor-pointer basic-3 hover:text-accent border-accent hover:font-semibold duration-300 ${
+                    skills === 1
+                      ? "font-semibold text-accent basic-4"
+                      : "font-light text-primary"
+                  }`}
+                  onClick={() => setSkills(1)}
+                >
+                  Front-end
+                </span>
+              </div>
+              <div className="tablet:w-full text-center">
+                <span
+                  className={`transition-all cursor-pointer hover:text-accent basic-3 border-accent hover:font-semibold duration-300 ${
+                    skills === 2
+                      ? "font-semibold text-accent basic-4"
+                      : "font-light text-primary"
+                  }`}
+                  onClick={() => setSkills(2)}
+                >
+                  Back-end
+                </span>
+              </div>
+              <div className="tablet:w-full text-right">
+                <span
+                  className={`transition-all cursor-pointer basic-3 hover:text-accent border-accent hover:font-semibold duration-300 ${
+                    skills === 3
+                      ? "font-semibold text-accent basic-4"
+                      : "font-light text-primary"
+                  }`}
+                  onClick={() => setSkills(3)}
+                >
+                  Other
+                </span>
+              </div>
             </div>
-            <div className="tablet:w-full text-center">
-              <span
-                className={`transition-all cursor-pointer hover:text-accent basic-3 border-accent hover:font-semibold duration-300 ${
-                  skills === 2
-                    ? "font-semibold text-accent basic-4"
-                    : "font-light text-primary"
-                }`}
-                onClick={() => setSkills(2)}
-              >
-                Back-end
-              </span>
-            </div>
-            <div className="tablet:w-full text-right">
-              <span
-                className={`transition-all cursor-pointer basic-3 hover:text-accent border-accent hover:font-semibold duration-300 ${
-                  skills === 3
-                    ? "font-semibold text-accent basic-4"
-                    : "font-light text-primary"
-                }`}
-                onClick={() => setSkills(3)}
-              >
-                Other
-              </span>
-            </div>
-          </div>
             <div
               className={`flex justify-around tablet:w-[600px] desktop:w-full space-x-2 desktop:space-x-0 mt-6 ${
                 skills === 1 ? "flex" : "hidden"
@@ -161,10 +171,14 @@ const About = () => {
               </a>
             </div>
           </div>
-          </div>
+        </div>
         <Image
           src="/portrait.webp"
-          className={`rounded-2xl shadow-card mb-12 desktop:mb-0 shadow-black/0 transition-all hover:shadow-black/30 duration-[2500ms] hover:duration-500 ${isOnScreen? "translate-x-[0px] opacity-100" : "translate-x-[100px] opacity-0"}`}
+          className={`rounded-2xl shadow-card mb-12 desktop:mb-0 shadow-black/0 transition-all hover:shadow-black/30 duration-[2500ms] hover:duration-500 ${
+            isOnScreen
+              ? "translate-x-[0px] opacity-100"
+              : "translate-x-[100px] opacity-0"
+          }`}
           alt="Portrait"
           draggable="false"
           width={300}

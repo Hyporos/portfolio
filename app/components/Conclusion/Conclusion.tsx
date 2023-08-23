@@ -2,12 +2,10 @@
 import "./Conclusion.css";
 import { BiLogoGithub } from "react-icons/bi";
 import { AiFillLinkedin } from "react-icons/ai";
-import { useMediaQuery } from "react-responsive";
 import useOnScreen from "@/app/hooks/isOnScreen";
 import { useRef } from "react";
 
 const Conclusion = () => {
-  const isMobile = useMediaQuery({ query: "(max-width: 749px)" });
   const observerRef = useRef<HTMLDivElement | null>(null);
   const isOnScreen = useOnScreen(observerRef);
   return (
@@ -39,9 +37,10 @@ const Conclusion = () => {
                 : "translate-x-[-100px] opacity-0"
             }`}
           >
-            Whether you have general inquiries or would like to work with me,
-            {!isMobile && <br></br>} I&apos;ll be happy to get back to you as
-            soon as possible! I&apos;m always looking for new opportunities.
+            Whether you have general inquiries or would like to work with me,{" "}
+            <span className="hidden tablet:block"></span>
+            I&apos;ll be happy to get back to you as soon as possible! I&apos;m
+            always looking for new opportunities.
           </p>
         </div>
         <div className="flex space-x-8 desktop:space-x-0 items-center">

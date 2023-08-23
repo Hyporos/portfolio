@@ -1,5 +1,5 @@
 .about {
-    @apply flex-col border-t-2 border-accent/50  mt-1
+    @apply flex-col border-t-2 border-accent/50 mt-1
 }
 
 .skill-icon {

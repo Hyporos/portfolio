@@ -164,7 +164,7 @@ const About = () => {
           </div>
         <Image
           src="/portrait.webp"
-          className={`rounded-2xl shadow-card mb-12 desktop:mb-0 shadow-black/0 transition-all hover:shadow-black/30 duration-[2500ms] ${isOnScreen? "translate-x-[0px] opacity-100" : "translate-x-[100px] opacity-0"}`}
+          className={`rounded-2xl shadow-card mb-12 desktop:mb-0 shadow-black/0 transition-all hover:shadow-black/30 duration-[2500ms] hover:duration-500 ${isOnScreen? "translate-x-[0px] opacity-100" : "translate-x-[100px] opacity-0"}`}
           alt="Portrait"
           draggable="false"
           width={300}

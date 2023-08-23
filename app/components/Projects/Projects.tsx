@@ -7,7 +7,7 @@ import useOnScreen from "@/app/hooks/isOnScreen";
 import { useRef } from "react";
 
 const Projects = () => {
-  const observerRef = useRef<HTMLDivElement>(null);
+  const observerRef = useRef<HTMLDivElement | null>(null);
   const isOnScreen = useOnScreen(observerRef);
   return (
     <section ref={observerRef} className="projects">

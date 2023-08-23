@@ -8,7 +8,7 @@ import useOnScreen from "@/app/hooks/isOnScreen";
 
 const Welcome = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 749px)" });
-  const observerRef = useRef<HTMLDivElement>(null);
+  const observerRef = useRef<HTMLDivElement | null>(null);
   const isOnScreen = useOnScreen(observerRef);
 
   return (

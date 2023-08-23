@@ -8,7 +8,7 @@ import { useRef } from "react";
 
 const Conclusion = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 749px)" });
-  const observerRef = useRef<HTMLDivElement>(null);
+  const observerRef = useRef<HTMLDivElement | null>(null);
   const isOnScreen = useOnScreen(observerRef);
   return (
     <section ref={observerRef} className="conclusion">

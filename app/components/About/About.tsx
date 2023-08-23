@@ -21,7 +21,7 @@ import useOnScreen from "@/app/hooks/isOnScreen";
 
 const About = () => {
   const [skills, setSkills] = useState(1);
-  const observerRef = useRef<HTMLDivElement>(null);
+  const observerRef = useRef<HTMLDivElement | null>(null);
   const isOnScreen = useOnScreen(observerRef);
   return (
     <section ref={observerRef} className="about">

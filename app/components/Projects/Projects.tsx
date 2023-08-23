@@ -19,7 +19,8 @@ const Projects = () => {
       </div>
       <div className="flex flex-col tablet:flex-row desktop:flex-col space-x-0 tablet:space-x-8 desktop:space-x-0 tablet:mt-6 mt-0 desktop:mt-0">
       <div className="flex flex-col desktop:flex-row desktop:space-x-16 space-y-12 desktop:space-y-0 mt-16 tablet:mt-6 desktop:mt-36 items-center">
-        <div className={`w-[330px] h-[350px] desktop:w-[500px] desktop:h-[350px] bg-primary/5 flex flex-col px-8 py-12 desktop:px-8 desktop:py-8 justify-between rounded-lg shadow-card shadow-black/0 transition-all hover:shadow-black/30 duration-[2500ms] hover:duration-500 ${isOnScreen ? "translate-x-[0px] opacity-100" : "opacity-0 translate-x-[-100px]"}`}>
+        <div className={`transition-all duration-[2500ms] ${isOnScreen ? "translate-x-[0px] opacity-100" : "opacity-0 translate-x-[-100px]"}`}>
+        <div className="w-[330px] h-[350px] desktop:w-[500px] desktop:h-[350px] bg-primary/5 flex flex-col px-8 py-12 desktop:px-8 desktop:py-8 justify-between rounded-lg shadow-card shadow-black/0 transition-all hover:shadow-black/30 duration-500">
           <div className="flex justify-between items-center">
             <h2 className="text-primary text-2xl uppercase tracking-wider hover:text-accent transition-all duration-300">
               <a href="https://maplesymbols.com/" target="_blank" className="group">
@@ -86,6 +87,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
+        </div>
         <div className={`bg-primary/10 w-[350px] h-[350px] items-center justify-center rounded-lg hidden desktop:flex transition-all duration-[2500ms] ${isOnScreen ? "translate-y-[0px] opacity-100" : "opacity-0 translate-y-[-100px]"}`}>
           <div className="w-[330px] h-[330px] opacity-75 hover:w-[340px] hover:h-[340px] hover:opacity-100 transition-all duration-300 cursor-pointer">
             <a href="https://maplesymbols.com/" target="_blank">
@@ -116,7 +118,8 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className={`w-[330px] h-[350px] desktop:w-[500px] desktop:h-[350px] bg-primary/5 flex flex-col px-8 py-12 desktop:px-8 desktop:py-8 justify-between rounded-lg shadow-card shadow-black/0 transition-all hover:shadow-black/30 duration-[2500ms] hover:duration-500 ${isOnScreen ? "translate-x-[0px] opacity-100" : "opacity-0 translate-x-[100px]"}`}>
+        <div className={`transition-all duration-[2500ms] ${isOnScreen ? "translate-x-[0px] opacity-100" : "opacity-0 translate-x-[100px]"}`}>
+        <div className="w-[330px] h-[350px] desktop:w-[500px] desktop:h-[350px] bg-primary/5 flex flex-col px-8 py-12 desktop:px-8 desktop:py-8 justify-between rounded-lg shadow-card shadow-black/0 transition-all hover:shadow-black/30 duration-500">
           <div className="flex justify-between items-center flex-row-reverse desktop:flex-row">
             <div className="flex space-x-8">
               <a href="https://wirem.app/" target="_blank" className="hidden desktop:block">
@@ -189,6 +192,7 @@ const Projects = () => {
           </div>
         </div>
         </div>
+      </div>
       </div>
     </section>
   );

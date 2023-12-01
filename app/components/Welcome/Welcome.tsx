@@ -4,6 +4,7 @@ import { AiOutlineArrowDown } from "react-icons/ai";
 import "./Welcome.css";
 import { useRef } from "react";
 import useOnScreen from "@/app/hooks/isOnScreen";
+import Link from "next/link";
 
 const Welcome = () => {
   const observerRef = useRef<HTMLDivElement | null>(null);
@@ -33,11 +34,11 @@ const Welcome = () => {
               : "translate-y-[50px] desktop:translate-y-[0px] desktop:translate-x-[100px] opacity-0"
           }`}
         >
-          <a href="https://github.com/Hyporos/portfolio/blob/master/public/Resume.pdf" target="_blank">
+          <Link href="/Resume.pdf" locale={false} target="_blank">
             <button className="allsides-4 mt-6 desktop:mt-8 text-text text-center font-semibold tracking-wide text-base desktop:text-xl uppercase border-2 border-primary hover:bg-primary hover:text-background duration-700 transition-all rounded-lg w-[125px] h-[45px] tablet:w-[140px] desktop:w-[180px] tablet:h-[50px] desktop:h-[55px]">
               Resume
             </button>
-          </a>
+          </Link>
         </div>
       </div>
       <div

@@ -33,7 +33,7 @@ const Welcome = () => {
               : "translate-y-[50px] desktop:translate-y-[0px] desktop:translate-x-[100px] opacity-0"
           }`}
         >
-          <a href="https://raw.githubusercontent.com/Hyporos/portfolio/master/public/resume.png" target="_blank">
+          <a href="https://github.com/Hyporos/portfolio/blob/master/public/Resume.pdf" target="_blank">
             <button className="allsides-4 mt-6 desktop:mt-8 text-text text-center font-semibold tracking-wide text-base desktop:text-xl uppercase border-2 border-primary hover:bg-primary hover:text-background duration-700 transition-all rounded-lg w-[125px] h-[45px] tablet:w-[140px] desktop:w-[180px] tablet:h-[50px] desktop:h-[55px]">
               Resume
             </button>

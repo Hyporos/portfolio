@@ -53,7 +53,7 @@ const Projects = () => {
             </p>
             <p className="text-text font-light hidden desktop:block">
               The calculator has received overwhelmingly positive feedback and
-              currently brings in about 7 unique visits a day.
+              currently brings in about 12 unique visits a day.
             </p>
           </div>
           <div className="flex space-x-3 desktop:space-x-8 text-sm text-text/70 font-light flex-wrap">

@@ -189,7 +189,7 @@ const Projects = () => {
                   community of over 400 members.
                 </p>
                 <p className="text-text font-light hidden desktop:block">
-                  The bot is used by many as an essential tool. It'll allow you
+                  The bot is used by many as an essential tool. It&apos;ll allow you
                   to track and analyze many different groups of data, according
                   to your needs.
                 </p>
@@ -261,8 +261,8 @@ const Projects = () => {
               </div>
               <div className="space-y-4 tracking-wide">
                 <p className="text-text font-light">
-                  Initially designed in Figma, it's now being brought to life.
-                  I'm helping design and develop this tool, which allows users
+                  Initially designed in Figma, it&apos;s now being brought to life.
+                  I&apos;m helping design and develop this tool, which allows users
                   to visualize and build sitemaps.
                 </p>
                 <p className="text-text font-light hidden desktop:block">

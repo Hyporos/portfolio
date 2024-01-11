@@ -46,7 +46,7 @@ const Footer = () => {
               : "translate-y-[20px] text-text/0 text"
           }}`}
         >
-          &copy; 2023 Brian Maleki
+          &copy; 2024 Brian Maleki
         </p>
       </div>
     </section>

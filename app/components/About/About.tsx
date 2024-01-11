@@ -13,6 +13,7 @@ import {
   BiLogoMongodb,
   BiLogoGit,
   BiLogoFigma,
+  BiLogoNodejs,
 } from "react-icons/bi";
 import { TbBrandNextjs } from "react-icons/tb";
 import { PiFileSql } from "react-icons/pi";
@@ -147,6 +148,9 @@ const About = () => {
             >
               <a href="https://cplusplus.com/" target="_blank">
                 <BiLogoCPlusPlus size={40} className="skill-icon" />
+              </a>
+              <a href="https://nodejs.org/en" target="_blank">
+                <BiLogoNodejs size={40} className="skill-icon" />
               </a>
               <a href="https://en.wikipedia.org/wiki/SQL" target="_blank">
                 <PiFileSql size={40} className="skill-icon" />

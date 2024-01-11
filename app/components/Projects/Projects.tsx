@@ -218,10 +218,10 @@ const Projects = () => {
                 </a>
                 <a
                   className="hover:text-white transition-all duration-300"
-                  href="https://xata.io/"
+                  href="https://www.mongodb.com/"
                   target="_blank"
                 >
-                  Xata
+                  MongoDB
                 </a>
               </div>
             </div>

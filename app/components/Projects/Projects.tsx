@@ -216,6 +216,13 @@ const Projects = () => {
                 >
                   Discord.js
                 </a>
+                <a
+                  className="hover:text-white transition-all duration-300"
+                  href="https://xata.io/"
+                  target="_blank"
+                >
+                  Xata
+                </a>
               </div>
             </div>
           </div>

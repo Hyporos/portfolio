@@ -73,12 +73,12 @@ const Projects = () => {
               </div>
               <div className="space-y-4 tracking-wide">
                 <p className="text-text font-light">
-                  I developed a sleek, simple tool which serves as a calculator
-                  and information book for a system in MapleStory, a video game.
+                  A sleek and intuitive tool which serves as a calculator and
+                  information book for a system in MapleStory, a video game.
                 </p>
                 <p className="text-text font-light hidden desktop:block">
                   The calculator has received overwhelmingly positive feedback
-                  and currently brings in about 12 unique visits a day.
+                  and currently brings in about 295 unique visits a month.
                 </p>
               </div>
               <div className="flex space-x-3 desktop:space-x-8 text-sm text-text/70 font-light flex-wrap">
@@ -189,12 +189,12 @@ const Projects = () => {
                   community of over 400 members.
                 </p>
                 <p className="text-text font-light hidden desktop:block">
-                  The bot is used by many as an essential tool. It&apos;ll allow you
-                  to track and analyze many different groups of data, according
-                  to your needs.
+                  The bot is used by many as an essential tool. It&apos;ll allow
+                  you to track and analyze many different groups of data,
+                  according to your needs.
                 </p>
               </div>
-              <div className="flex space-x-3 desktop:space-x-8 text-sm text-text/70 font-light flex-wrap desktop:justify-end">
+              <div className="flex space-x-2 desktop:space-x-8 text-[13px] text-text/70 font-light flex-wrap desktop:justify-end">
                 <a
                   className="hover:text-white transition-all duration-300"
                   href="https://react.dev/"
@@ -268,12 +268,12 @@ const Projects = () => {
               </div>
               <div className="space-y-4 tracking-wide">
                 <p className="text-text font-light">
-                  Initially designed in Figma, it&apos;s now being brought to life.
-                  I&apos;m helping design and develop this tool, which allows users
-                  to visualize and build sitemaps.
+                  Initially designed in Figma, it&apos;s now being brought to
+                  life. The tool, which allows users to visualize and build
+                  sitemaps, is slowly nearing completion.
                 </p>
                 <p className="text-text font-light hidden desktop:block">
-                  What will make this visualizer stand out from the rest? No
+                  What will make Wiremap stand out from its competitors? No
                   paywalls and a greatly improved user experience.
                 </p>
               </div>

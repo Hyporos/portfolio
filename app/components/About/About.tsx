@@ -15,9 +15,9 @@ import {
   BiLogoFigma,
   BiLogoNodejs,
 } from "react-icons/bi";
-import { TbBrandNextjs } from "react-icons/tb";
+import { TbBrandNextjs, TbBrandStorybook } from "react-icons/tb";
 import { PiFileSql } from "react-icons/pi";
-import { SiExpress } from "react-icons/si";
+import { SiExpress, SiJest } from "react-icons/si";
 import useOnScreen from "@/app/hooks/isOnScreen";
 
 const About = () => {
@@ -109,7 +109,7 @@ const About = () => {
               </div>
             </div>
             <div
-              className={`flex justify-around tablet:w-[600px] desktop:w-full space-x-2 desktop:space-x-0 mt-6 ${
+              className={`flex justify-around items-center tablet:w-[600px] desktop:w-full space-x-2 desktop:space-x-0 mt-6 ${
                 skills === 1 ? "flex" : "hidden"
               }`}
             >
@@ -135,14 +135,17 @@ const About = () => {
                 <BiLogoReact size={40} className="skill-icon" />
               </a>
               <a href="https://nextjs.org/" target="_blank">
-                <TbBrandNextjs size={40} className="skill-icon" />
+                <TbBrandNextjs size={40} className="stroke-primary hover:stroke-accent opacity-50 hover:opacity-100 transition-all duration-300" />
               </a>
               <a href="https://tailwindcss.com/" target="_blank">
                 <BiLogoTailwindCss size={40} className="skill-icon" />
               </a>
+              <a href="https://storybook.js.org/" target="_blank">
+                <TbBrandStorybook size={40} className="stroke-primary hover:stroke-accent opacity-50 hover:opacity-100 transition-all duration-300" />
+              </a>
             </div>
             <div
-              className={`flex justify-around tablet:w-[600px] desktop:w-full space-x-10 desktop:space-x-3.5 mt-6 ${
+              className={`flex justify-around items-center tablet:w-[600px] desktop:w-full space-x-10 desktop:space-x-3.5 mt-6 ${
                 skills === 2 ? "flex" : "hidden"
               }`}
             >
@@ -160,7 +163,7 @@ const About = () => {
               </a>
             </div>
             <div
-              className={`flex justify-around tablet:w-[600px] desktop:w-full space-x-10 desktop:space-x-3.5 mt-6 ${
+              className={`flex justify-around items-center tablet:w-[600px] desktop:w-full space-x-10 desktop:space-x-3.5 mt-6 ${
                 skills === 3 ? "flex" : "hidden"
               }`}
             >
@@ -169,6 +172,9 @@ const About = () => {
               </a>
               <a href="https://www.mongodb.com/" target="_blank">
                 <BiLogoMongodb size={40} className="skill-icon" />
+              </a>
+              <a href="https://jestjs.io/" target="_blank">
+                <SiJest size={35} className="skill-icon" />
               </a>
               <a href="https://www.figma.com/" target="_blank">
                 <BiLogoFigma size={40} className="skill-icon" />

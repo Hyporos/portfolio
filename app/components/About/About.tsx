@@ -45,18 +45,23 @@ const About = () => {
       <div className="flex flex-col-reverse desktop:flex-row justify-center items-center desktop:space-x-16 mt-16 mb-12 desktop:my-36 desktop:max-h-[300px] w-[350px] tablet:w-[600px] desktop:max-w-[1000px]">
         <div className="flex flex-col justify-between items-center desktop:items-stretch">
           <div
-            className={`text-text text-justify tablet:text-justify desktop:[text-align-last:justify] [text-align-last:center] text-lg desktop:text-xl font-light px-6 w-[350px] tablet:w-[600px] transition-all duration-[2500ms] desktop:w-full desktop:px-0 ${
+            className={`text-text text-center tablet:text-justify desktop:[text-align-last:justify] [text-align-last:center] text-sm tablet:text-base font-light px-6 w-[350px] tablet:w-[600px] transition-all duration-[2500ms] desktop:w-full desktop:px-0 ${
               isOnScreen
                 ? "translate-y-[0px] opacity-100"
                 : "translate-y-[-100px] opacity-0"
             }`}
           >
-            I&apos;m a web developer with a passion for design based in Toronto,
-            Canada. Growing up, I was always around technology. As a result, I
-            had been fascinated by the idea of creating new things. Fast forward
-            to today, I now strive to develop tools that prove to be useful to
-            others. When I&apos;m not occupied with coding, you can find me
-            hiking, rock climbing, or studying a new language.
+            I&apos;m a full-stack developer based in Toronto, Canada. Growing
+            up, I was always surrounded by technology. As a result, I developed
+            a fascination to the idea of creating something by myself one day.
+            Fast forward to today, I've accomplished that goal and feel great
+            knowing I have satisfied hundreds of people around the globe with
+            the tools I've created so far. It doesn't end for me here, I strive
+            to continue developing tools and services that prove to be useful to
+            others. Programming, to me, is one of my favourite hobbies, and one
+            in which I feel I can properly express and pour out my creative
+            mind. Some of my other hobbies would include hiking, rock climbing,
+            travelling, and learning new languages.
           </div>
           <div
             className={`border-primary/25 border-t w-[325px] tablet:w-[690px] desktop:w-[636px] my-12 desktop:my-6 transition-all duration-[2500ms] ${
@@ -135,13 +140,19 @@ const About = () => {
                 <BiLogoReact size={40} className="skill-icon" />
               </a>
               <a href="https://nextjs.org/" target="_blank">
-                <TbBrandNextjs size={40} className="stroke-primary hover:stroke-accent opacity-50 hover:opacity-100 transition-all duration-300" />
+                <TbBrandNextjs
+                  size={40}
+                  className="stroke-primary hover:stroke-accent opacity-50 hover:opacity-100 transition-all duration-300"
+                />
               </a>
               <a href="https://tailwindcss.com/" target="_blank">
                 <BiLogoTailwindCss size={40} className="skill-icon" />
               </a>
               <a href="https://storybook.js.org/" target="_blank">
-                <TbBrandStorybook size={40} className="stroke-primary hover:stroke-accent opacity-50 hover:opacity-100 transition-all duration-300" />
+                <TbBrandStorybook
+                  size={40}
+                  className="stroke-primary hover:stroke-accent opacity-50 hover:opacity-100 transition-all duration-300"
+                />
               </a>
             </div>
             <div

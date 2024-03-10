@@ -54,9 +54,9 @@ const About = () => {
             I&apos;m a full-stack developer based in Toronto, Canada. Growing
             up, I was always surrounded by technology. As a result, I developed
             a fascination to the idea of creating something by myself one day.
-            Fast forward to today, I've accomplished that goal and feel great
+            Fast forward to today, I&apos;ve accomplished that goal and feel great
             knowing I have satisfied hundreds of people around the globe with
-            the tools I've created so far. It doesn't end for me here, I strive
+            the tools I&apos;ve created so far. It doesn&apos;t end for me here, I strive
             to continue developing tools and services that prove to be useful to
             others. Programming, to me, is one of my favourite hobbies, and one
             in which I feel I can properly express and pour out my creative
